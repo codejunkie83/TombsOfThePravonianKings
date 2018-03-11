@@ -22,5 +22,5 @@ add_executable(TombsOfThePravonianKings main.cpp Display.cpp Display.h)
 target_link_libraries(TombsOfThePravonianKings
         ${OPENGL_LIBRARY} # filled by "find_package(OpenGL REQUIRED)"
         libglfw3.a
-        glfw3.lib
+        glew32.lib
         )
