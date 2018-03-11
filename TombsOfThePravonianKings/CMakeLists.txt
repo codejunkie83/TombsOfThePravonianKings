@@ -17,7 +17,7 @@ include_directories(include)
 
 link_directories(lib)
 
-add_executable(TombsOfThePravonianKings main.cpp)
+add_executable(TombsOfThePravonianKings main.cpp Display.cpp Display.h)
 
 target_link_libraries(TombsOfThePravonianKings
         ${OPENGL_LIBRARY} # filled by "find_package(OpenGL REQUIRED)"
